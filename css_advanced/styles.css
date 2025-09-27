@@ -1,0 +1,222 @@
+body{
+    background-image: url(assets/Object.png);
+    background-size: contain;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+/* The header */
+
+header{
+    display: flex;
+    align-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    
+}
+
+nav img{
+    margin-left: 12rem;
+    height: 29.46px;
+    width: 167px;
+
+}
+
+
+nav ul{
+    display: flex;
+    height: 15px;
+    justify-content: space-between;
+    margin-left: 650px;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+/* The hero section */
+
+.section_hero{
+    margin-top: 10px;
+}
+
+.div_1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.div_1 h1{
+    font-size: 120px;
+    color: #ffffff;
+}
+
+.div_1 div{
+    display: flex;
+    align-content: space-around;
+    margin-top: -80px
+}
+
+.div_1 div span{
+    color: #ffffff;
+    padding-left:20px;
+}
+
+.div_1 button{
+    margin-top: 40px;
+    background-color: #c271ff;
+    color: white;
+    width: 162px;
+    height: 44px;
+    border-color: #c271ff;
+    border-radius: 22px;
+    font-size: 14px;
+    box-shadow: 0 0 10px black;
+
+}
+
+/* tutors section*/
+
+.tutors {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tutors div {
+    margin-top: 80px;
+    display: flex;
+    align-content: space-evenly;
+}
+
+.tutors h2{
+    color: white;
+}
+
+
+.tutors h2 span{
+    color: #c271ff;
+}
+
+.tutors div div{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.tutors div div .bruce{
+    border-radius: 50%;
+}
+
+.tutors div div h3{
+    color: #ffffff;    
+}
+
+.tutors div div p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: -12px;
+    font-style: italic;
+}
+
+.quote {
+    background-color: #c271ff;
+    box-sizing: border-box;
+    width: 100%;
+    background-clip: content-box;
+    height: 392px;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote div{
+    margin-left: 50px;
+}
+
+.quote div p, blockquote, h3{
+    color: white;
+}
+
+.quote blockquote{
+    margin-left: -20px;
+}
+
+.quote p{
+    margin-top: -15px;
+    font-style: italic;
+}
+
+.popular_tutorials h2{
+ text-align: center;
+ margin-top: 80px;
+ font-size: 32px;
+ font-weight: lighter;
+}
+
+.popular_tutorials h2 span{
+    color: #c271ff;
+}
+
+.popular_tutorials div{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    
+}
+
+.popular_tutorials div div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.popular_tutorials div div h3{
+    color: black;
+    margin-left: -170px;
+}
+
+.popular_tutorials div div p{
+    margin-top: -10px;
+}
+
+.popular_tutorials div div img{
+    width: 255px;
+    height: 154px;
+}
+
+.popular_tutorials div div div img{
+    width: 30px;
+    height: 30px;
+}
+
+.popular_tutorials .rating {
+    display: flex;
+}
+
+
+
+
+
+
+
