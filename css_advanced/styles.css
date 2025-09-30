@@ -179,28 +179,30 @@ nav ul a{
 .popular_tutorials div{
     margin-top: 80px;
     display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
     
 }
 
 .popular_tutorials div div{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
 }
 
 .popular_tutorials div div h3{
     color: black;
-    margin-left: -170px;
 }
 
 .popular_tutorials div div p{
     margin-top: -10px;
 }
 
+.popular_tutorials div div div{
+    display: flex;
+}
+
 .popular_tutorials div div img{
+    margin-top: -80px;
     width: 255px;
     height: 154px;
 }
@@ -210,11 +212,125 @@ nav ul a{
     height: 30px;
 }
 
-.popular_tutorials .rating {
+.popular_tutorials div div div h4{
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: -60px;
+    color: #c271ff;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+
+}
+
+.rating p{
+    color: #c271ff;  
+}
+
+.free_membership {
+    padding: 50px;
+    margin-top: 70px;
+    background-color: #071629;
+}
+
+.free_membership h2 {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.free_m_div{
     display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.free_m_div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.free_m_div div p{
+   color: white;
+}
+
+.free_register_button{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.free_membership button{
+    color: white;
+    background-color: #c271ff;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px; 
+    margin-left: 650px;   
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.faq {margin-left: 290px;
+    align-items: center;
+    width: 920px;
+    height: 707px;
+}
+
+.faq h2{
+    text-align: center;
+}
+
+.faqdiv{
+    display: flex;
+    gap: 70px;
+}
+
+.faqdiv div{
+    display: flex;
+    flex-direction: column;
+    justify-content:left
+}
+
+.footer_section{
+    background-color:#071629;
 }
 
 
+.footer_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    margin-top: -200px;
+    height: 200px;
+}
+
+.footer_content div{
+    display: flex;
+    gap: 15px;
+}
+
+.footer_content div i{
+    color: white;
+}
+
+.footer_content img{
+    width: 169px;
+    height: 30px;
+}
+
+.footer_section p{
+    color: white;
+    text-align: center;
+    
+}
 
 
 
